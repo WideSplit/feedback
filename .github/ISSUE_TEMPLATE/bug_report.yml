@@ -1,0 +1,101 @@
+name: Bug report
+description: Something in WideSplit doesn't work the way it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please search existing issues first — if yours is there, add to it instead.
+
+        **Everything here is public, including attachments.** Don't paste diagnostic reports or logs — they can include your macOS user name, identifiers of your monitors and the names of apps and windows you had open. Email them to support@widesplit.app and mention this issue's number.
+
+        Screen stuck? ⌃⌥⌘P returns your monitor to full screen.
+  - type: input
+    id: version
+    attributes:
+      label: WideSplit version
+      description: The Updates section of the WideSplit menu shows it.
+      placeholder: "0.4.2 (892)"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      description: Apple menu › About This Mac.
+      placeholder: "macOS 26.1"
+    validations:
+      required: true
+  - type: input
+    id: mac
+    attributes:
+      label: Mac model
+      description: Apple menu › About This Mac.
+      placeholder: "MacBook Pro 14-inch, M3 Pro, 2023"
+    validations:
+      required: true
+  - type: textarea
+    id: displays
+    attributes:
+      label: Monitors and layout
+      description: Model and resolution of each monitor, how it's connected (USB-C, HDMI, a dock…), whether your Mac's own screen is open, and which WideSplit layout you use.
+      placeholder: |
+        49" ultrawide, 5120 × 1440, USB-C
+        MacBook screen open
+        Layout: three side by side
+    validations:
+      required: true
+  - type: dropdown
+    id: split
+    attributes:
+      label: Was the split on?
+      options:
+        - "Yes, the split was on"
+        - "It happened while turning the split on or off"
+        - "No, the split was off"
+        - "Not sure"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps that lead to the problem
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - "Every time"
+        - "Sometimes"
+        - "Once so far"
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots or a screen recording
+      description: Drag files here. Anything you attach is public and stays online even if you edit the issue later. Don't include meeting windows with other people, messages, or the diagnostic panel. Logs and diagnostic reports go by email, not here.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you send
+      options:
+        - label: I searched existing issues.
+          required: true
+        - label: I'm on the latest beta build I received.

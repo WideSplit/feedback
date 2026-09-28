@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Known issues in the current build
+    url: https://github.com/WideSplit/feedback/issues?q=is%3Aissue+label%3Aknown-issue
+    about: Check here first — your problem may already have a workaround.

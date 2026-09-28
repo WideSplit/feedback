@@ -1,0 +1,37 @@
+name: Feature request
+description: Something you'd like WideSplit to do.
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search first — if the idea is already here, add a 👍 and your use case to it.
+        We can't build every request, and we don't promise dates.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The situation and what gets in the way. The problem helps us more than a finished design.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+  - type: textarea
+    id: today
+    attributes:
+      label: How do you handle it today?
+      description: A workaround, another app, or “I don't”.
+  - type: textarea
+    id: setup
+    attributes:
+      label: Your setup (optional)
+      description: Monitors and layout, if they matter for this idea.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you send
+      options:
+        - label: I searched existing requests.
+          required: true
