@@ -53,7 +53,7 @@ Please don't open a public issue. Email support@widesplit.app.
 
 ## Turning the split off
 
-Choose **Stop the magic** in the WideSplit menu or press **⌃⌥⌘S**.
+Choose **Stop the magic** in the WideSplit menu or press **⌃⌥⌘Space**.
 Screen stuck? **⌃⌥⌘P** returns your monitor to full screen at any time.
 
 ## Response times
