@@ -4,11 +4,14 @@ WideSplit is a menu bar app for macOS that turns one wide monitor into
 separate screens that macOS knows — each with its own Spaces and its own
 full-screen apps. → [WideSplit.app](https://widesplit.app)
 
+[![WideSplit in 30 seconds — watch on YouTube](https://img.youtube.com/vi/e5erJzkUtlg/maxresdefault.jpg)](https://youtu.be/e5erJzkUtlg)
+
+▶ **[Watch WideSplit in 30 seconds](https://youtu.be/e5erJzkUtlg)**
+
 **This repository has no source code.** It's where you report problems,
 ask for features and follow what changes from build to build.
 
-WideSplit is in free beta, and WideSplit 1.0 will be a paid app.
-Some things will break. When they do, we're sorry — and we'd like to hear
+WideSplit is a free beta. Some things will break. When they do, we're sorry — and we'd like to hear
 about it here.
 
 ## Report a problem
